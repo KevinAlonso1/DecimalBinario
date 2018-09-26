@@ -1,6 +1,6 @@
 __author_='Kevin Alonso'
 
-Decimal=998766
+Decimal=998
 
 
 def ConvertirDecimalABinario(Decimal):
