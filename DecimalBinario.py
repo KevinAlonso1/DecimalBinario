@@ -1,6 +1,6 @@
 __author_='Kevin Alonso'
 
-Decimal=998
+Decimal=555
 
 
 def ConvertirDecimalABinario(Decimal):
@@ -10,6 +10,6 @@ def ConvertirDecimalABinario(Decimal):
         Decimal = Decimal // 2
     return str(Decimal) + Binario
 
-
+lista=list(ConvertirDecimalABinario(Decimal))
 print('Numero: ',Decimal)
-print(ConvertirDecimalABinario(Decimal))
+print('Binario',lista)
